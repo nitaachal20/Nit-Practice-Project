@@ -1,0 +1,143 @@
+JAVA Intro   vol1A--13
+------------
+1]why java?
+2] Def of Java
+3] Dif  c++ and java        61
+4] summury 62
+ 
+
+ch#01:Java Intro
+==============
+-> Why , Def ,feature ,Java History , TOApp , TOInternetApp , GMAIL Archi ,Complete Java , TO java S/w , java version ,folder Hierachy ,EV,
+---------------------------------------------------------------------------------------------------
+ch#02:comment,Idenetifier ,KW
+                         final , finalize ,finally
+ch#03:working with editplus
+-------------------------------
+ch#04:DT (02-XEROX02)-->page8  
+====
+-->Integer , Float , Character , Boolean , String
+-->Variables ,class,object 
+-->literal - 54
+=>java 7 New Feature             1]Binary Literal
+                                                        2]Undersocre in Number Literals,=>modifiers(125), 
+---------------------------------------------------------------------------------------------------------
+ch#05: WC with AB & UB (113)
+-----------------------------------------------------------------------------------------------------------
+-----------
+ch#08:AM
+-------------
+--> Java 8 Features
+---------------------------------------------------------------------------------------------------------
+ch#09: Method   & TOM(205 To 216)
+==============
+ ch#10: Variables & TOV(VOL 1A  221) 
+=============
+* Def --> how can we crete?  
+* Limitations 
+* EX: on  PV & RV
+* Defineing ,Declaring , Assigning ,Reassigning ,intializing ,Calling a var
+* Diff betw execu  a var & Execu a method.
+* Diff betw var Calling & method Calling .
+*TOV :  1] LV, Param  (inside a method nor block)   
+             2]CLV (based on time they getting memory location)==>  
+                               A)  SV                                         B) NSV
+  ** Memory loc =======> 1] MV(auto var)
+                                                   2] SV (class var/fields)
+                                                   3]NSV(object var/instance)
+                                 -------------------EX-------------------------
+ * LV and  its rule 
+                Rule 1::: 1] scope is  within a method
+                Rule 2::: 2] LV should not accessed without intializing.
+                Rule 3::: 2] LV  accessed after its cretion ... intializing.
+* CLV
+========
+Ex with SV ,NSV ,LV
+Q] can we declare LV as a static-->No
+
+* FV     |       * TV  (dont want to store a value in a file(obj seriliz)           |   * VV(we dont to modify V 
+             |          (CLV)                                                                                                  | (CLV)concurentey by
+                                                                                                                                     |     multi  threads
+* LT & Scope of Var    ==>   LV   ||    SV    ||   NSV
+-----------------------------
+Q] How many members we can define   inside a class?? ------->9
+Q] Why two types of members are given in oop?    SM (comman to all instances)| NSM(Specific to                                                                                                                                        every instance of an object
+
+
+
+----------------------------------------------------------------------------------------------------------
+OOP (03Xerox03)  (1 To 17)
+=============
+--> Abbrivation OOP
+--> We have 4 TO Progrm Languages 
+           Mono....(ML,AL)  ->     no modularity , resuability ,not user friendely
+           PL or SPL             -->   no security , no Dyn Binding (what s Dyn Binding?)
+           OOP                     -->   security , Dyn Binding and mudularity
+           Functional
+-->what is OOP?
+-->Why OOP?
+-->OOP concept
+--> Diff betwn POP and OOP
+
+-->What is object? And Instance
+--> why should we create RWO in PW?
+      Every obj has two things
+      Ex=> Employee obj (give DIG)
+-->What is class? 4 DEF
+-> What is an Instance?
+--> Summary
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+OOP (03Xerox03)
+=======================
+1)We have 4 TO Progrm Languages
+2)What is OOP,Object , Class & Instance                         (packages/Array/Refl-API/Regular Expres/SH)
+1) Java Programming Elements(9)
+
+2) Classes and TOC(6) : why only 6 TOF We have??---   there Ex.........
+  
+        1)Interface  
+        ===========
+  > What is I , Ex(shape)
+  >Rules::{ -->
+(1).java &.class(java8)                      (2) modifiers(d,p,a.sfp)
+(3)extends & implements kw       
+(4) java does not support Multiple Inheritnce(why)::But java support multiple type inheritence with interface.
+(5) Inside Interface we can create 5 TO members (PSFV,PAM,PDimplM,PSimplM,PSinnerC)
+(6) values must be intialize inside a interface beacuse it is by default static final variable 
+(We can create ref in  interface  (Ex) bydefalut
+(7)If interface contain AM then otherwise declar sub class as a AC(EX)-->
+
+(8) We must impl interface method with public kw (without using public we get error)
+Example=>Zoo Animal Project using interface
+Example=>Develop interfce based program to achiv Dynamcic binding(ATM Machine & ATM Car(HDFC,ICIC,Kotak) 
+Note::Super class ref vari can store sub type class object ref to acheive LC&(RTP)DB.
+
+    2)AC(41 to 52)
+    =======
+* What is AC?    * Why?    * When?   * Syntax(EX)
+* We must place abstract Kw in AM of AC..bec AC also contain CM..
+* To imp logic to AM  of AC we must define sub class from AC
+* Rule on sub class  i)extends    ii) impl all AM or declar it as a abstract as AC or AM
+*  Example=>bus(I)::::RedBus  VolvoBus  MC
+* Rules==> must used abstract ,.class and .java, Modifiers(D,Ab,Sfp) ,we can derive an AC from either class and interface(extends & impl  kw) ,Inside AC allowed all 10 members, compre to interface,
+We can not instantiate AC becu is is partially impl(not obj)  , when we derive a class form AC we must override all AM else decler sub class also as a AC.,
+if class is declare as  abstract then its method must conation abstract kw.error.
+
+
+   3) CC(52 to 59)
+         ========
+ 1)what is?   2)when we create CC? 3)syntax    4) Ex: Shape&Animal project  5)
+Rules===> 8 point 
+
+   4) FC  
+  =====
+ 1)Wht is?    2)when to choose?     3) syntax   
+Rules====> kw final , modifiers(D,P,Sfp)
+
+OVERVIEW ================ONE PROJECT EXAMPLE========================
+
+
+
+
