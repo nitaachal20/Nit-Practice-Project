@@ -10,6 +10,9 @@ public class demo {
 		int   y = 10;
 		System.out.println(y);
 		System.out.println(y);
+		
+		System.out.println(y);
+		
 	}
 
 }
